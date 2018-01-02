@@ -1,0 +1,29 @@
+{
+  "name": "react-express",
+  "version": "1.0.0",
+  "description": "Create full stack apps with React and Express. Run your client and server with a single command",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "client-install": "cd client && npm install",
+    "client": "cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bobslegend61/react-express-starter-pack.git"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "starter-pack"
+  ],
+  "author": "Alabi Emmanuel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bobslegend61/react-express-starter-pack/issues"
+  },
+  "homepage": "https://github.com/Bobslegend61/react-express-starter-pack#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
